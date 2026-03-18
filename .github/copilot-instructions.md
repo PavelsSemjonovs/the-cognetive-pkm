@@ -2,19 +2,20 @@
 
 ## Architecture
 This repository is a Git-based Personal Knowledge Management (PKM) system, not a traditional software project. It is structured to separate belief, decision, and action to preserve epistemic integrity and support long-term learning.
+Primary layers:
 - `inbox/`: Raw captures, unstructured ideas, and references.
+- `resources/`: Reference materials and provenance anchors.
 - `beliefs/`: Stabilized models, principles, and hypotheses.
 - `decisions/`: Commitments taken under uncertainty.
-- `experiments/`: Logs of actions taken and their measurable results.
+- `experiments/`: Logs of actions taken and measurable results.
 - `synthesis/`: Integrated patterns across multiple decisions and experiments.
-- `resources/`: References and external materials.
 
-## Project Conventions
-When creating or updating documents, adhere to the specific structure required for each cognitive layer:
-- **Beliefs** (`beliefs/`): Must include a clear statement, assumptions, supporting evidence, counterarguments, status (hypothesis/tested/stable/deprecated), and revision history.
-- **Decisions** (`decisions/`): Must capture the decision question, context snapshot, alternatives considered, reasoning, expected outcomes, and reconsideration conditions.
-- **Experiments** (`experiments/`): Must include actions performed, measurable results, deviations from expectation, and unexpected signals.
-- **Synthesis** (`synthesis/`): Must answer what was learned, which beliefs survived stress, and which assumptions failed.
+## Sources of truth
+Use these repo-native harness docs instead of relying on ad-hoc conventions:
+
+- Agent entrypoint: `AGENTS.md` (see `/AGENTS.md`)
+- Harness table of contents: `docs/harness/index.md` (see `/docs/harness/index.md`)
+- Templates: `docs/templates/` (see `/docs/templates/`)
 
 ## Git Conventions
 Git is used as cognitive infrastructure to track the evolution of thought.
