@@ -7,3 +7,4 @@ This directory is the system-of-record for how the repository is operated and ma
 - Repository concept: [CONCEPT.md](CONCEPT.md)
 - Engineering harness concept: [ENGINEERING_HARNESS.md](ENGINEERING_HARNESS.md)
 - Harness table of contents: [harness/index.md](harness/index.md)
+- MVP roadmap: [ROADMAP_MVP.md](ROADMAP_MVP.md)
