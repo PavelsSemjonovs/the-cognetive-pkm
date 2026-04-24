@@ -1,212 +1,56 @@
 # Cognitive PKM Repository
 
-A Personal Knowledge Management system built on Git and cognitive science principles.
+## Overview
 
-This repository is not a note collection.
-It is a structured cognitive environment designed to:
-	•	preserve epistemic integrity
-	•	separate belief from decision
-	•	trace outcomes over time
-	•	support long-term learning
-	•	reduce cognitive entropy
+This repository is my Personal Knowledge Management (PKM) system for the Software Engineering course.
 
-⸻
+The goal of this repository is not just to store notes, but to structure my thinking, track decisions, document experiments, and reflect on my learning process over time.
 
-## Why Git-Based PKM?
+This repository follows the structure provided in the course example and is adapted for my personal use.
 
-Most note systems optimize for capture.
+---
 
-This system optimizes for:
-	•	structured belief evolution
-	•	decision traceability
-	•	versioned thinking
-	•	long-horizon reasoning
+## Purpose
 
-Git provides:
-	•	full history of intellectual evolution
-	•	branching for hypothesis testing
-	•	commits as epistemic micro-acts
-	•	transparent model refinement
+- Organize knowledge from lectures and practical work
+- Track important decisions and their reasoning
+- Document experiments and results
+- Capture insights and learning progress
+- Build a system for structured thinking
 
-Knowledge without versioning creates an illusion of consistency.
-Git makes change explicit.
+---
 
-⸻
+## Repository Structure
 
-## Core Principles
+This repository is organized into several folders, each serving a specific purpose:
 
-1. Separate Belief, Decision, and Action
+- `inbox/` — raw notes, ideas, and unprocessed thoughts  
+- `docs/` — structured documentation and more formal notes  
+- `decisions/` — important decisions with explanations  
+- `experiments/` — practical work, tests, and results  
+- `resources/` — useful materials and references  
+- `beliefs/` — long-term principles and understanding  
+- `synthesis/` — combined insights and conclusions  
 
-Do not mix:
-	•	What I believe
-	•	What I decided
-	•	What I did
+---
 
-Collapsing them destroys learning.
+## Rules for Using This Repository
 
-This repository enforces structural separation between:
-	•	Belief documents
-	•	Decision records
-	•	Experiment logs
+1. Write notes regularly during the course  
+2. Keep entries simple and clear  
+3. Record decisions with reasoning  
+4. Document experiments and outcomes  
+5. Use Git history to track learning progress  
+6. Continuously improve and refine notes  
 
-⸻
+---
 
-2. Knowledge Is Structured Belief
+## Expected Outcome
 
-Every stabilized idea should include:
-	•	Clear statement
-	•	Assumptions
-	•	Supporting evidence
-	•	Counterarguments
-	•	Status (hypothesis / tested / stable / deprecated)
-	•	Revision history
+By the end of the course, this repository will reflect my learning journey, demonstrate structured thinking, and support my final course report.
 
-Beliefs are constraints on future reasoning.
+---
 
-⸻
+## Author
 
-3. Decisions Are Commitments
-
-A decision is not an action.
-It is a commitment taken under uncertainty.
-
-Each decision record should capture:
-	•	Decision question
-	•	Context snapshot
-	•	Alternatives considered
-	•	Reasoning
-	•	Expected outcomes
-	•	Reconsideration conditions
-
-This enables post-mortem analysis and reduces narrative bias.
-
-⸻
-
-4. Experiments Close the Loop
-
-Actions without outcome tracking produce no learning.
-
-Each experiment should include:
-	•	Actions performed
-	•	Measurable results
-	•	Deviations from expectation
-	•	Unexpected signals
-
-This creates causal traceability.
-
-⸻
-
-5. Memory Is Layered
-
-Human cognition is not flat.
-Your repository should not be either.
-
-Recommended logical layers:
-
-/inbox
-/beliefs
-/decisions
-/experiments
-/synthesis
-/resources
-
-You may adapt the structure, but preserve conceptual separation.
-
-⸻
-
-Suggested Repository Structure
-
-.
-├── inbox/
-│   └── raw-captures.md
-│
-├── beliefs/
-│   ├── belief-template.md
-│   └── example-belief.md
-│
-├── decisions/
-│   ├── decision-template.md
-│   └── example-decision.md
-│
-├── experiments/
-│   ├── experiment-template.md
-│   └── example-experiment.md
-│
-├── synthesis/
-│   └── periodic-review.md
-│
-└── resources/
-    └── references.md
-
-Templates are strongly recommended to maintain epistemic consistency.
-
-⸻
-
-## Git as Cognitive Infrastructure
-
-Commits
-	•	Keep commits atomic
-	•	Write descriptive commit messages
-	•	Explain reasoning when modifying beliefs
-
-Every commit is a micro-decision.
-
-⸻
-
-Branches
-
-Use branches for:
-	•	Competing strategies
-	•	Alternative models
-	•	Experimental directions
-
-Merging equals model selection.
-
-⸻
-
-Issues
-
-Use Issues for:
-	•	Open questions
-	•	Contradictions
-	•	Missing evidence
-	•	Structural tensions
-
-Unresolved questions are cognitive assets.
-
-⸻
-
-Anti-Patterns
-
-Avoid:
-	•	Note hoarding without synthesis
-	•	Silent belief modification
-	•	Decisions without logs
-	•	Mixing reflection with execution logs
-	•	Over-optimizing visual structure at the cost of clarity
-
-⸻
-
-Periodic Review
-
-At regular intervals:
-	•	Re-evaluate core beliefs
-	•	Audit decision quality
-	•	Analyze prediction accuracy
-	•	Identify recurring blind spots
-
-The repository should evolve from storage to strategic instrument.
-
-⸻
-
-Intended Outcome
-
-Over time, this repository should become:
-	•	A decision support system
-	•	A research laboratory
-	•	A strategic thinking environment
-	•	A structured extension of rational agency
-
-The goal is not more notes.
-
-The goal is better thinking.
+Pavels Semjonovs
